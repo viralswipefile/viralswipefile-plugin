@@ -6,7 +6,8 @@ creator, and read each video's hook, caption, views, engagement and viral
 factor.
 
 [Viral Swipe File](https://viralswipefile.com) files each video under a niche
-and one or more formats (talking head, tutorial, POV and more). **Viral
+and one or more formats (selfie with background, face close-up, story in
+slideshow and more). **Viral
 factor** is how many times more views a video got than its account usually
 gets, so sorting by it finds outliers whatever the account's size.
 
@@ -16,8 +17,8 @@ that tell it how to find, quote and learn from the videos.
 ## What you can ask
 
 - "Show me the most viral fitness videos and the hooks behind them."
-- "Which video formats work best for skincare on TikTok?"
-- "Write 5 hooks for my budgeting app, modelled on viral personal finance videos."
+- "Which video formats work best for astrology apps on TikTok?"
+- "Write 5 hooks for my budgeting app, modelled on viral finance videos."
 - "What are this creator's best-performing videos?"
 - "Turn my team's saved videos into a UGC brief."
 

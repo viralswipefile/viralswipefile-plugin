@@ -10,7 +10,7 @@ Explicit user instructions take priority over this workflow.
 ## 1. Resolve names to slugs
 
 `list_videos` filters on niche and format slugs. Plain names usually work
-("Personal Finance" becomes `personal-finance`), but when a name is not an
+("Make Money Online" becomes `make-money-online`), but when a name is not an
 exact niche or format:
 
 - call `search_library` with the user's words, or
@@ -54,7 +54,7 @@ Then:
 - A list is a sample of the library, not the whole platform. Say "in the
   library", never "on TikTok".
 - When you count formats or patterns, give the counts from the videos you
-  read ("6 of the 20 top fitness videos are talking head").
+  read ("6 of the 20 top fitness videos are face close-up").
 - If a result has no `hook` and carries an `upgrade` line, the account's plan
   leaves hooks out: pass the line on when the user wants hooks.
 - A missing figure is unavailable, not zero.

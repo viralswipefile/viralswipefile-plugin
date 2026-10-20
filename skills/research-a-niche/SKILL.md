@@ -23,6 +23,6 @@ Explicit user instructions take priority over this workflow.
    with its viral factor and link), then two or three takeaways the user can
    act on.
 
-State the sample: "the top 40 skincare videos in the library by viral
+State the sample: "the top 40 astrology videos in the library by viral
 factor". The library is past viral videos, so do not describe the result as
 this week's trend.
