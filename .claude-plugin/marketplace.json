@@ -1,0 +1,17 @@
+{
+  "name": "viralswipefile",
+  "description": "Viral TikToks and Instagram Reels for Claude: hooks, formats, creators and viral factor from the Viral Swipe File library.",
+  "owner": {
+    "name": "Viral Swipe File",
+    "email": "hello@viralswipefile.com",
+    "url": "https://viralswipefile.com"
+  },
+  "plugins": [
+    {
+      "name": "viralswipefile",
+      "source": "./",
+      "description": "Viral TikToks and Instagram Reels from Viral Swipe File: search the library by niche, format and creator, and read each video's hook, caption, views, engagement and viral factor. Find outlier videos, study the hooks and formats that work in a niche, and link every example to its page.",
+      "version": "1.0.0"
+    }
+  ]
+}

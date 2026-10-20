@@ -1,0 +1,14 @@
+{
+  "name": "viralswipefile",
+  "owner": {
+    "name": "Viral Swipe File",
+    "email": "hello@viralswipefile.com",
+    "url": "https://viralswipefile.com"
+  },
+  "plugins": [
+    {
+      "name": "viralswipefile",
+      "source": "./"
+    }
+  ]
+}

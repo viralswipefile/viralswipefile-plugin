@@ -1,0 +1,28 @@
+{
+  "name": "viralswipefile",
+  "version": "1.0.0",
+  "description": "Viral TikToks and Instagram Reels from Viral Swipe File: search the library by niche, format and creator, and read each video's hook, caption, views, engagement and viral factor. Find outlier videos, study the hooks and formats that work in a niche, and link every example to its page.",
+  "logo": "assets/icon.png",
+  "author": {
+    "name": "Viral Swipe File",
+    "email": "hello@viralswipefile.com",
+    "url": "https://viralswipefile.com"
+  },
+  "homepage": "https://viralswipefile.com/mcp",
+  "repository": "https://github.com/viralswipefile/viralswipefile-plugin",
+  "license": "MIT",
+  "keywords": [
+    "tiktok",
+    "instagram reels",
+    "viral videos",
+    "hooks",
+    "short-form video",
+    "ugc",
+    "swipe file",
+    "content ideas",
+    "app marketing",
+    "video formats",
+    "viral factor",
+    "creators"
+  ]
+}
