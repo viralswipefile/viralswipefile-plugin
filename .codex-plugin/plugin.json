@@ -1,6 +1,6 @@
 {
   "name": "viralswipefile",
-  "version": "1.0.0",
+  "version": "1.1.2",
   "description": "Viral TikToks and Instagram Reels from Viral Swipe File: search the library by niche, format and creator, and read each video's hook, caption, views, engagement and viral factor. Find outlier videos, study the hooks and formats that work in a niche, and link every example to its page.",
   "author": {
     "name": "Viral Swipe File",
@@ -28,9 +28,9 @@
   "interface": {
     "displayName": "Viral Swipe File",
     "shortDescription": "Viral TikTok & Reels hooks",
-    "longDescription": "Find TikToks and Instagram Reels that went viral, and the hooks, formats and creators behind them. Viral Swipe File is a searchable library of past viral short-form videos for app marketers, UGC teams, creators and brands who want real examples before they write a script.\n\nSearch by topic or creator, or filter by niche, format (selfie with background, face close-up, story in slideshow and more), platform, creator gender, posting window and minimum viral factor. Sort by viral factor to find outliers: videos that got many times more views than their account usually does, whatever the account's size. Open any video for its hook, caption, views, engagement rate, niche, formats and creator, then ask for new hooks or video ideas in the same patterns. Your team's saved videos are available too.\n\nEvery figure comes from the library's own records and every example links to its page on viralswipefile.com, which links the original post.\n\nThe library is a collection of past viral videos, not a live trend feed or an analytics tool for your own account. It covers TikTok and Instagram Reels only, not YouTube or long-form video. It links to videos rather than downloading them. Every tool is read-only: it cannot save, remove or post anything. A Viral Swipe File account is required to connect.",
+    "longDescription": "A marketing swipe file of viral TikToks and Instagram Reels. Marketing teams use it to research the hooks, formats and creators behind short-form videos that went viral, then brief and script their own marketing videos from real examples. Built for app marketers, UGC teams, creators and brands.\n\nSearch by topic or creator, or filter by niche, format (selfie with background, face close-up, story in slideshow and more), platform, creator gender, posting window and minimum viral factor. Sort by viral factor to find outliers: videos that got many times more views than their account usually does, whatever the account's size. Open any video for its hook, caption, views, engagement rate, niche, formats and creator, then ask for new hooks or video ideas in the same patterns. Your team's saved videos are available too.\n\nEvery figure comes from the library's own records and every example links to its page on viralswipefile.com, which links the original post.\n\nThe library is a collection of past viral videos, not a live trend feed or an analytics tool for your own account. It covers TikTok and Instagram Reels only, not YouTube or long-form video. It links to videos rather than downloading them. Every tool is read-only: it cannot save, remove or post anything. A Viral Swipe File account is required to connect.",
     "developerName": "Viral Swipe File",
-    "category": "Business",
+    "category": "Business & Operations",
     "capabilities": [
       "Search viral TikToks and Instagram Reels",
       "Filter by niche, format, platform and creator",

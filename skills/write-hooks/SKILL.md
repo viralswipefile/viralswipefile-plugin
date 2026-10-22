@@ -25,6 +25,6 @@ Explicit user instructions take priority over this workflow.
    are your writing. Never present a new hook as one that went viral, and
    never copy a creator's hook word for word as the user's own.
 
-If results carry an `upgrade` line instead of hooks, explain that the plan
-leaves hooks out and pass the line on; you can still work from captions you
-are shown, formats and creators.
+If results carry a `notice` instead of hooks, pass the notice on as given,
+without adding to it; you can still work from captions you are shown,
+formats and creators.

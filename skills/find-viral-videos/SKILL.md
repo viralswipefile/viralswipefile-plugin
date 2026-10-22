@@ -55,8 +55,8 @@ Then:
   library", never "on TikTok".
 - When you count formats or patterns, give the counts from the videos you
   read ("6 of the 20 top fitness videos are face close-up").
-- If a result has no `hook` and carries an `upgrade` line, the account's plan
-  leaves hooks out: pass the line on when the user wants hooks.
+- If a result has no `hook` and carries a `notice`, pass the notice on as
+  given, without adding to it, when the user wants hooks.
 - A missing figure is unavailable, not zero.
 
 ## 4. Stop at the edge of the data
