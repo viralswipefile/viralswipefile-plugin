@@ -10,9 +10,10 @@ Explicit user instructions take priority over this guidance.
 
 ## Choose the requested path
 
-- For "set up", "get started" or "is it connected", call `list_niches` once.
-  If it returns niches, the connection works: say so and name a few niches
-  from the result. Do not list them all.
+- For "set up", "get started" or "is it connected", call `list_niches` once
+  (it does not count toward the team's daily questions). If it returns
+  niches, the connection works: say so and name a few niches from the
+  result. Do not list them all.
 - If tools are unavailable or authentication fails, say the connection is not
   verified and tell the user to connect or reconnect Viral Swipe File in their
   app, signing in with their Viral Swipe File account. Do not claim the plugin

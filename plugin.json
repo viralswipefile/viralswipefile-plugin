@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "viralswipefile",
-  "version": "1.1.3",
+  "version": "1.1.5",
   "description": "Viral TikToks and Instagram Reels from Viral Swipe File: search the library by niche, format and creator, and read each video's hook, caption, views, engagement and viral factor. Find outlier videos, study the hooks and formats that work in a niche, and link every example to its page.",
   "author": {
     "name": "Viral Swipe File",
@@ -58,7 +58,7 @@
       },
       "onboardingSkill": "./skills/get-started/SKILL.md",
       "publication": {
-        "release_notes": "1.1.3: The manifests name the public source repository, and the README says exactly what a tool call sends: Viral Swipe File no longer records tool results or the client's user agent in its analytics. Tools are unchanged: search_library, list_videos, get_video, list_niches, list_formats and list_saved_videos, all read-only, every example linked to its page on viralswipefile.com."
+        "release_notes": "1.1.5: Replaces the plugin logo and composer icon with the approved V+ mark in the existing charcoal stone style. MCP tools and behavior are unchanged."
       }
     }
   }

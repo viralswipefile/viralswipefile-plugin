@@ -14,7 +14,8 @@ Explicit user instructions take priority over this workflow.
 exact niche or format:
 
 - call `search_library` with the user's words, or
-- call `list_niches` / `list_formats` and pick the closest match.
+- call `list_niches` / `list_formats` and pick the closest match. They do
+  not count toward the team's daily questions, so use them freely.
 
 If two niches fit, say which one you used. If nothing fits, say so and use
 `search` (free text over hook, caption, niche, formats and creator) instead
@@ -58,6 +59,9 @@ Then:
 - If a result has no `hook` and carries a `notice`, pass the notice on as
   given, without adding to it, when the user wants hooks.
 - A missing figure is unavailable, not zero.
+- If a call answers with a message instead of results, saying the team has
+  used today's questions, pass it on as given, with when the count starts
+  again, and do not retry before then. It is not an error to work around.
 
 ## 4. Stop at the edge of the data
 

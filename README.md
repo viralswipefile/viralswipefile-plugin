@@ -22,6 +22,10 @@ that tell it how to find, quote and learn from the videos.
 - "What are this creator's best-performing videos?"
 - "Turn my team's saved videos into a UGC brief."
 
+The server also offers four ready-made prompts: viral videos in my niche, swipe
+a creator, hooks for my product or account, and map a niche's formats. In
+Claude, open a chat's + menu and pick Viral Swipe File.
+
 ## What is in here
 
 | Path | |
@@ -74,8 +78,9 @@ read-only: it cannot save, remove or post anything.
 
 The plugin talks to one server, `viralswipefile.com`. When your assistant
 calls a tool, the tool's arguments, such as a niche, a format or a search
-term, are sent to that server. Viral Swipe File counts each call against your
-team's usage, with the AI client's name, and records it in its product
+term, are sent to that server. Viral Swipe File counts each call (except
+`list_niches` and `list_formats`) against your team's usage, with the AI
+client's name, and records every call in its product
 analytics (PostHog): the tool name, its arguments, timing, errors, your
 account identifier and the AI client's name and version. It does not record
 what the tool returned. Nothing else from your conversation or your machine is
