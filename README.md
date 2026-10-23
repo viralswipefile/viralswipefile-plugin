@@ -34,7 +34,7 @@ that tell it how to find, quote and learn from the videos.
 | `.codex-plugin/` | Codex and OpenAI Agents API manifest |
 | `.cursor-plugin/` | Cursor manifest and marketplace entry |
 | `.grok-plugin/` | Grok manifest |
-| `assets/` | Icon |
+| assets folder | Icon and logo |
 
 The skills are plain Markdown instructions. The plugin ships no scripts, hooks
 or executables and installs no packages.
@@ -76,8 +76,9 @@ The plugin talks to one server, `viralswipefile.com`. When your assistant
 calls a tool, the tool's arguments, such as a niche, a format or a search
 term, are sent to that server. Viral Swipe File counts each call against your
 team's usage, with the AI client's name, and records it in its product
-analytics (PostHog): the tool name, its arguments, timing, errors and your
-account identifier. Nothing else from your conversation or your machine is
+analytics (PostHog): the tool name, its arguments, timing, errors, your
+account identifier and the AI client's name and version. It does not record
+what the tool returned. Nothing else from your conversation or your machine is
 sent. See the [privacy policy](https://viralswipefile.com/privacy).
 
 ## Scope
