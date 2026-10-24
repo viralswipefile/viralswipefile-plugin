@@ -1,6 +1,6 @@
 ---
 name: get-started
-description: Set up Viral Swipe File after installation, check its connection when asked, and help the user try a first question. Use for get started, onboarding, setup, connection checks, or questions about what the library holds and what it can do.
+description: Set up Viral Swipe File after installation, check its connection when asked, and help the user try a first question. Use for get started, onboarding, setup, connection checks, or questions about what the library holds, what it can do, or how it helps decide what to post.
 ---
 
 # Get started with Viral Swipe File
@@ -19,14 +19,16 @@ Explicit user instructions take priority over this guidance.
   app, signing in with their Viral Swipe File account. Do not claim the plugin
   is ready because this skill loaded.
 - For "what can it do", explain without calling a tool.
-- If the user already asked a real question, answer it with the
-  find-viral-videos workflow instead of stopping at a suggestion.
+- If the user already asked a real question, answer it instead of stopping
+  at a suggestion: what-to-post for post ideas, find-viral-videos for
+  examples.
 
 ## What to say
 
-- Viral Swipe File is a library of TikToks and Instagram Reels that went
-  viral, each filed under a niche and one or more formats (selfie with
-  background, face close-up, story in slideshow and more).
+- Viral Swipe File helps decide what to post: it is a library of TikToks
+  and Instagram Reels that went viral, each filed under a niche and one or
+  more formats (selfie with background, face close-up, story in slideshow
+  and more), and the assistant writes hooks and ideas from them.
 - Each video has its hook, caption, creator, views, engagement rate and
   viral factor.
 - **Viral factor** is how many times more views a video got than its account
@@ -45,9 +47,9 @@ them; it cannot save or remove videos.
 
 Offer one, adapted to what the user mentioned:
 
-- "Show me the most viral fitness videos and the hooks behind them."
-- "Which video formats work best for astrology apps on TikTok?"
-- "Write 5 hooks for my app, modelled on viral videos in its niche."
+- "What should I post this week for a fitness client?"
+- "Show me the viral hooks in finance, then write 5 for my budgeting app."
+- "Which video formats work best for astrology on TikTok?"
 - "What has my team saved, and what do those videos have in common?"
 
 Never quote a figure from memory; figures come only from tool results.

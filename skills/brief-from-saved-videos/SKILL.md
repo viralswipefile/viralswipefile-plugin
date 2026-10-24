@@ -1,6 +1,6 @@
 ---
 name: brief-from-saved-videos
-description: Read the videos the user's team saved on Viral Swipe File and turn them into a content or UGC brief - shared hooks, formats and creators, and ideas to shoot next. Use when the user mentions their saved videos, board, favourites or swipe file on Viral Swipe File.
+description: Read the videos the user's team saved on Viral Swipe File and turn them into a content or UGC brief - shared hooks, formats and creators, and ideas to shoot next. Use when the user mentions their saved videos, a board, favourites, their swipe file or swipe folder on Viral Swipe File, or wants to turn saved inspiration into posts.
 ---
 
 # Brief from saved videos

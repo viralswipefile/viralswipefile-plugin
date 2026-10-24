@@ -1,6 +1,6 @@
 ---
 name: find-viral-videos
-description: Find viral TikToks and Instagram Reels in the Viral Swipe File library by niche, format, platform or creator, and quote each video's hook and stats with its link. Use when the user asks for viral videos, examples, outliers, top videos in a niche or format, or a creator's best-performing videos.
+description: Find viral TikToks and Instagram Reels in the Viral Swipe File library by niche, format, platform or creator, and quote each video's hook, views and viral factor with its link. Use when the user asks for viral videos or examples, what's working in a niche or format, videos that beat their account's usual views, the top videos in a niche, or a creator's best videos.
 ---
 
 # Find and cite viral videos

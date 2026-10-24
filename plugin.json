@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "viralswipefile",
-  "version": "1.1.5",
-  "description": "Viral TikToks and Instagram Reels from Viral Swipe File: search the library by niche, format and creator, and read each video's hook, caption, views, engagement and viral factor. Find outlier videos, study the hooks and formats that work in a niche, and link every example to its page.",
+  "version": "1.2.0",
+  "description": "Know what to post next on TikTok and Instagram Reels. Your AI agent searches Viral Swipe File, a curated library of viral videos filed by niche and format, and writes hooks and content ideas from real posts instead of a blank prompt. Each video comes with its hook, views and viral factor (its views against the account's usual), and a link to watch it.",
   "author": {
     "name": "Viral Swipe File",
     "email": "hello@viralswipefile.com",
@@ -12,33 +12,31 @@
   "repository": "https://github.com/viralswipefile/viralswipefile-plugin",
   "license": "MIT",
   "keywords": [
+    "viral hooks",
+    "content ideas",
+    "viral formats",
     "tiktok",
     "instagram reels",
-    "viral videos",
-    "hooks",
+    "ugc hooks",
     "short-form video",
-    "ugc",
+    "social media manager",
     "swipe file",
-    "content ideas",
-    "app marketing",
-    "video formats",
-    "viral factor",
-    "creators"
+    "viral videos"
   ],
   "extensions": {
     "com.openai": {
       "interface": {
         "displayName": "Viral Swipe File",
-        "shortDescription": "Viral TikTok & Reels hooks",
-        "longDescription": "A marketing swipe file of viral TikToks and Instagram Reels. Marketing teams use it to research the hooks, formats and creators behind short-form videos that went viral, then brief and script their own marketing videos from real examples. Built for app marketers, UGC teams, creators and brands.\n\nSearch by topic or creator, or filter by niche, format (selfie with background, face close-up, story in slideshow and more), platform, creator gender, posting window and minimum viral factor. Sort by viral factor to find outliers: videos that got many times more views than their account usually does, whatever the account's size. Open any video for its hook, caption, views, engagement rate, niche, formats and creator, then ask for new hooks or video ideas in the same patterns. Your team's saved videos are available too.\n\nEvery figure comes from the library's own records and every example links to its page on viralswipefile.com, which links the original post.\n\nThe library is a collection of past viral videos, not a live trend feed or an analytics tool for your own account. It covers TikTok and Instagram Reels only, not YouTube or long-form video. It links to videos rather than downloading them. Every tool is read-only: it cannot save, remove or post anything. A Viral Swipe File account is required to connect.",
+        "shortDescription": "Know what to post: viral hooks",
+        "longDescription": "Know what to post next, for every client. Viral Swipe File is a curated library of TikToks and Instagram Reels that got far more views than their account usually does, each filed under a niche and one or more formats, with its hook. Connect it and your AI agent does the scrolling: ask what to post for a fitness client, or for viral hooks in finance, and it reads real videos from the library, names the hooks and formats that repeat, and writes new ones for your product or account in those patterns.\n\nBuilt for social media managers juggling several clients, creators, UGC teams and app marketers.\n\nSearch by topic or creator, or filter by niche, format (selfie with background, face close-up, story in slideshow and more), platform, creator gender, posting window and minimum viral factor. Viral factor is views against the account's usual: x10 means ten times what that account normally gets, so a small account's breakout ranks next to a big one's. Open any video for its hook, caption, views, engagement rate, niche, formats and creator. Your team's saved videos are available too, so they can turn into a brief.\n\nEvery figure comes from the library's own records, and every example links to its page on viralswipefile.com, which links the original post. Your agent is told to keep its own hooks apart from the quoted ones.\n\nThe library is a collection of past viral videos, not a live trend feed or an analytics tool for your own account. It covers TikTok and Instagram Reels only, not YouTube or long-form video. It links to videos rather than downloading them. Every tool is read-only: it cannot save, remove or post anything. A Viral Swipe File account is required to connect.",
         "developerName": "Viral Swipe File",
         "category": "Business & Operations",
         "capabilities": [
-          "Search viral TikToks and Instagram Reels",
-          "Filter by niche, format, platform and creator",
-          "Rank outliers by viral factor",
-          "Read a video's hook, caption and stats",
-          "Write hooks and video ideas from proven examples",
+          "Content ideas from viral videos in your niche",
+          "Viral hooks with their views and viral factor",
+          "Which formats work in a niche, counted",
+          "Search TikToks and Reels by niche, format and creator",
+          "New hooks and video ideas written from real examples",
           "List niches and formats with their video counts",
           "Your team's saved videos"
         ],
@@ -47,9 +45,9 @@
         "privacyPolicyURL": "https://viralswipefile.com/privacy",
         "termsOfServiceURL": "https://viralswipefile.com/terms",
         "defaultPrompt": [
-          "Show me the most viral fitness videos and the hooks behind them",
-          "Which video formats work best for astrology apps on TikTok?",
-          "Write 5 hooks for my budgeting app, modelled on viral finance videos"
+          "What should I post this week for a fitness client? Base each idea on a viral video",
+          "Find viral hooks in finance and write 5 for my budgeting app",
+          "Which video formats work best for astrology on TikTok?"
         ],
         "brandColor": "#000000",
         "brandColorDark": "#00FF94",
@@ -58,7 +56,7 @@
       },
       "onboardingSkill": "./skills/get-started/SKILL.md",
       "publication": {
-        "release_notes": "1.1.5: Replaces the plugin logo and composer icon with the approved V+ mark in the existing charcoal stone style. MCP tools and behavior are unchanged."
+        "release_notes": "1.2.0: Rewrites the listing, the skills and the suggested prompts around the job they do: knowing what to post, with viral hooks and formats by niche. Adds a what-to-post skill. MCP tools, sign-in and access are unchanged."
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 name: write-hooks
-description: Write new hooks, scripts or video ideas for TikTok or Instagram Reels modelled on viral examples from the Viral Swipe File library. Use when the user wants hooks, opening lines, scripts, UGC briefs or content ideas for their product, app, brand or account.
+description: Write new hooks, scripts or video ideas for TikTok or Instagram Reels from real viral videos in the Viral Swipe File library. Use when the user wants viral hooks, UGC hooks, opening lines that stop the scroll, hooks that don't sound like AI, scripts or UGC briefs for their product, app, brand, client or account.
 ---
 
 # Write hooks from viral examples

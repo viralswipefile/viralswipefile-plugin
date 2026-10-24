@@ -1,6 +1,6 @@
 ---
 name: research-a-niche
-description: Research what works in one niche on TikTok or Instagram Reels using the Viral Swipe File library - which formats, hooks and creators lead, on which platform. Use when the user asks which formats work, what a niche's viral videos have in common, or how a niche differs between TikTok and Instagram.
+description: Find which formats and hooks work in one niche on TikTok or Instagram Reels, using the Viral Swipe File library - counts per format, the best example of each, and the creators who repeat. Use when the user asks which formats work, what a niche's viral videos have in common, how to research TikTok and Instagram content for a niche, or how a niche differs between TikTok and Instagram.
 ---
 
 # Research a niche

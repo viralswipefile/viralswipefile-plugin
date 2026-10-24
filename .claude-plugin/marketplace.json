@@ -1,6 +1,6 @@
 {
   "name": "viralswipefile",
-  "description": "Viral TikToks and Instagram Reels for Claude: hooks, formats, creators and viral factor from the Viral Swipe File library.",
+  "description": "Viral TikTok and Instagram Reels hooks for Claude: know what to post, with real videos by niche and format from the Viral Swipe File library.",
   "owner": {
     "name": "Viral Swipe File",
     "email": "hello@viralswipefile.com",
@@ -10,8 +10,8 @@
     {
       "name": "viralswipefile",
       "source": "./",
-      "description": "Viral TikToks and Instagram Reels from Viral Swipe File: search the library by niche, format and creator, and read each video's hook, caption, views, engagement and viral factor. Find outlier videos, study the hooks and formats that work in a niche, and link every example to its page.",
-      "version": "1.1.5"
+      "description": "Know what to post next on TikTok and Instagram Reels. Your AI agent searches Viral Swipe File, a curated library of viral videos filed by niche and format, and writes hooks and content ideas from real posts instead of a blank prompt. Each video comes with its hook, views and viral factor (its views against the account's usual), and a link to watch it.",
+      "version": "1.2.0"
     }
   ]
 }

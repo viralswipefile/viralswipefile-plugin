@@ -1,7 +1,7 @@
 {
   "name": "viralswipefile",
-  "version": "1.1.5",
-  "description": "Viral TikToks and Instagram Reels from Viral Swipe File: search the library by niche, format and creator, and read each video's hook, caption, views, engagement and viral factor. Find outlier videos, study the hooks and formats that work in a niche, and link every example to its page.",
+  "version": "1.2.0",
+  "description": "Know what to post next on TikTok and Instagram Reels. Your AI agent searches Viral Swipe File, a curated library of viral videos filed by niche and format, and writes hooks and content ideas from real posts instead of a blank prompt. Each video comes with its hook, views and viral factor (its views against the account's usual), and a link to watch it.",
   "logo": "assets/icon.png",
   "author": {
     "name": "Viral Swipe File",
@@ -12,17 +12,15 @@
   "repository": "https://github.com/viralswipefile/viralswipefile-plugin",
   "license": "MIT",
   "keywords": [
+    "viral hooks",
+    "content ideas",
+    "viral formats",
     "tiktok",
     "instagram reels",
-    "viral videos",
-    "hooks",
+    "ugc hooks",
     "short-form video",
-    "ugc",
+    "social media manager",
     "swipe file",
-    "content ideas",
-    "app marketing",
-    "video formats",
-    "viral factor",
-    "creators"
+    "viral videos"
   ]
 }

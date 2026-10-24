@@ -1,30 +1,32 @@
 # Viral Swipe File plugin
 
-Viral TikToks and Instagram Reels for Claude, ChatGPT, Codex, Cursor and Grok:
-search a library of short-form videos that went viral, by niche, format and
-creator, and read each video's hook, caption, views, engagement and viral
-factor.
+Know what to post next on TikTok and Instagram Reels. This plugin connects
+Claude, ChatGPT, Codex, Cursor and Grok to a curated library of short-form
+videos that went viral, filed by niche and format, so your assistant writes
+hooks and content ideas from real posts. Each video comes with its hook,
+caption, views, engagement and viral factor, and a link to watch it.
 
 [Viral Swipe File](https://viralswipefile.com) files each video under a niche
 and one or more formats (selfie with background, face close-up, story in
-slideshow and more). **Viral
-factor** is how many times more views a video got than its account usually
-gets, so sorting by it finds outliers whatever the account's size.
+slideshow and more). **Viral factor** is how many times more views a video
+got than its account usually gets: x10 is ten times its usual, so a small
+account's breakout ranks next to a big one's.
 
-This plugin connects your AI assistant to the library over MCP and adds skills
-that tell it how to find, quote and learn from the videos.
+The plugin reaches the library over MCP and adds skills that tell your
+assistant how to find, quote and learn from the videos.
 
 ## What you can ask
 
-- "Show me the most viral fitness videos and the hooks behind them."
-- "Which video formats work best for astrology apps on TikTok?"
-- "Write 5 hooks for my budgeting app, modelled on viral finance videos."
-- "What are this creator's best-performing videos?"
+- "What should I post this week for a fitness client?"
+- "Show me the viral hooks in finance, then write 5 for my budgeting app."
+- "Which video formats work best for astrology on TikTok?"
+- "What are this creator's best videos?"
 - "Turn my team's saved videos into a UGC brief."
 
-The server also offers four ready-made prompts: viral videos in my niche, swipe
-a creator, hooks for my product or account, and map a niche's formats. In
-Claude, open a chat's + menu and pick Viral Swipe File.
+The server also offers five ready-made prompts: what to post next, viral
+hooks in my niche, swipe a creator's best videos, hooks for my product or
+client, and formats that work in a niche. In Claude, open a chat's + menu and
+pick Viral Swipe File.
 
 ## What is in here
 
@@ -33,7 +35,7 @@ Claude, open a chat's + menu and pick Viral Swipe File.
 | `.claude-plugin/plugin.json` | Claude plugin manifest |
 | `.claude-plugin/marketplace.json` | Marketplace entry, so this repo can be added as a Claude Code marketplace |
 | `.mcp.json` | The remote MCP server, `https://viralswipefile.com/api/mcp` |
-| `skills/` | Five skills: get started, find viral videos, write hooks, research a niche, brief from saved videos |
+| `skills/` | Six skills: get started, what to post, find viral videos, write hooks, research a niche, brief from saved videos |
 | `plugin.json`, `mcp.json` | The same plugin in the [Agent Plugins](https://agent-plugins.org) format, for ChatGPT |
 | `.codex-plugin/` | Codex and OpenAI Agents API manifest |
 | `.cursor-plugin/` | Cursor manifest and marketplace entry |
