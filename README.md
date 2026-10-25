@@ -83,10 +83,15 @@ calls a tool, the tool's arguments, such as a niche, a format or a search
 term, are sent to that server. Viral Swipe File counts each call (except
 `list_niches` and `list_formats`) against your team's usage, with the AI
 client's name, and records every call in its product
-analytics (PostHog): the tool name, its arguments, timing, errors, your
-account identifier and the AI client's name and version. It does not record
-what the tool returned. Nothing else from your conversation or your machine is
-sent. See the [privacy policy](https://viralswipefile.com/privacy).
+analytics (PostHog): the tool name, its arguments (an argument containing an
+email address or a phone or card number is replaced first), timing, how the
+call turned out (how many results, or that nothing matched, the call was
+refused or it failed), errors, your account identifier and the AI client's
+name and version. Calls made close together are grouped into a session (for
+ChatGPT, by the anonymous conversation id it sends). It does not record what
+the tool returned, only how many results. Nothing else from your conversation
+or your machine is sent. See the [privacy
+policy](https://viralswipefile.com/privacy).
 
 ## Scope
 
