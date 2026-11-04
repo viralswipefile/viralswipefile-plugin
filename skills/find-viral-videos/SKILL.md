@@ -1,6 +1,6 @@
 ---
 name: find-viral-videos
-description: Find viral TikToks and Instagram Reels in the Viral Swipe File library by niche, format, platform or creator, and quote each video's hook, views and viral factor with its link. Use when the user asks for viral videos or examples, what's working in a niche or format, videos that beat their account's usual views, the top videos in a niche, or a creator's best videos.
+description: Find viral TikToks and Instagram Reels in the Viral Swipe File library by niche, format, brand, platform or creator, and quote each video's hook, views and viral factor with its link. Use when the user asks for viral videos or examples, what's working in a niche or format, videos that beat their account's usual views, the top videos in a niche, or a creator's best videos.
 ---
 
 # Find and cite viral videos
@@ -17,9 +17,14 @@ exact niche or format:
 - call `list_niches` / `list_formats` and pick the closest match. They do
   not count toward the team's daily questions, so use them freely.
 
+For an app or brand (one featured in the videos), call `list_brands` and
+pass its slug as `brand`. A brand that is not listed has too few videos in
+the library: say so rather than guessing.
+
 If two niches fit, say which one you used. If nothing fits, say so and use
-`search` (free text over hook, caption, niche, formats and creator) instead
-of guessing a slug.
+`search` (2 to 4 plain words over hook, caption, description, niche, formats
+and creator; no OR, AND or quotes) instead of guessing a slug. Niches are a
+closed list, so a topic like "home decor" is a `search`, with no `niche`.
 
 ## 2. Pick the tool
 
@@ -30,11 +35,16 @@ of guessing a slug.
 | Most-viewed rather than most outsized | `list_videos` with `sort: "views"` |
 | Newest additions | `list_videos` with `sort: "recent"` |
 | One creator's best videos | `list_videos` with `creator` |
-| One video's full hook and caption | `get_video` |
+| Videos made a certain way (a UGC selfie, an app mockup, a hook tactic, a tone) | `list_videos` with `visual_format`, `hook_tactic`, `tone`, `emotional_trigger`, `talent`, `awareness` or `asset_type`. Only videos the classifier has read match; each card shows its own labels |
+| What worked for one app or brand: its hooks, formats, creators | `get_brand`, then `list_videos` with `brand` |
+| Which apps and brands the library covers | `list_brands` |
+| One video's full hook and description (lists already carry the hook) | `get_video` |
 | Which niches or formats exist, and how many videos each has | `list_niches`, `list_formats` |
 | The user's team's saved videos | `list_saved_videos` |
 
-Page with `offset` (use the returned `nextOffset`). `min_viral_factor` keeps
+Page with `offset` (use the returned `nextOffset`). A null `nextOffset` means
+there is no further page for this account: narrow with filters or search
+words instead, and pass on any `note` the answer carries. `min_viral_factor` keeps
 only outliers, for example 4 or more. If a `days` window returns nothing,
 say so and widen it; the library holds past viral videos, so recent windows
 can be thin.
@@ -56,8 +66,6 @@ Then:
   library", never "on TikTok".
 - When you count formats or patterns, give the counts from the videos you
   read ("6 of the 20 top fitness videos are face close-up").
-- If a result has no `hook` and carries a `notice`, pass the notice on as
-  given, without adding to it, when the user wants hooks.
 - A missing figure is unavailable, not zero.
 - If a call answers with a message instead of results, saying the team has
   used today's questions, pass it on as given, with when the count starts

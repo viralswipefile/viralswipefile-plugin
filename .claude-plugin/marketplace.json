@@ -11,7 +11,7 @@
       "name": "viralswipefile",
       "source": "./",
       "description": "Know what to post next on TikTok and Instagram Reels. Your AI agent searches Viral Swipe File, a curated library of viral videos filed by niche and format, and writes hooks and content ideas from real posts instead of a blank prompt. Each video comes with its hook, views and viral factor (its views against the account's usual), and a link to watch it.",
-      "version": "1.2.0"
+      "version": "1.3.0"
     }
   ]
 }
