@@ -38,7 +38,7 @@ closed list, so a topic like "home decor" is a `search`, with no `niche`.
 | Videos made a certain way (a UGC selfie, an app mockup, a hook tactic, a tone) | `list_videos` with `visual_format`, `hook_tactic`, `tone`, `emotional_trigger`, `talent`, `awareness` or `asset_type`. Only videos the classifier has read match; each card shows its own labels |
 | What worked for one app or brand: its hooks, formats, creators | `get_brand`, then `list_videos` with `brand` |
 | Which apps and brands the library covers | `list_brands` |
-| One video's full hook and description (lists already carry the hook) | `get_video` |
+| One video's full hook and description (lists already carry the hook), and `how_its_built`, a note on how a classified video is made | `get_video` |
 | Which niches or formats exist, and how many videos each has | `list_niches`, `list_formats` |
 | The user's team's saved videos | `list_saved_videos` |
 

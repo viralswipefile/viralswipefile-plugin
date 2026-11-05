@@ -9,7 +9,7 @@ caption, views, engagement and viral factor, and a link to watch it.
 [Viral Swipe File](https://viralswipefile.com) files each video under a niche
 and one or more formats (selfie with background, face close-up, story in
 slideshow and more). **Viral factor** is how many times more views a video
-got than its account usually gets: x10 is ten times its usual, so a small
+got than its account usually gets: 10x is ten times its usual, so a small
 account's breakout ranks next to a big one's.
 
 The plugin reaches the library over MCP and adds skills that tell your
